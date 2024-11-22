@@ -25,7 +25,7 @@ export const Header = ({
 
   return (
     <React.Fragment>
-      <header className="top-0 z-[100] bg-sqm-white lg:sticky">
+      <header className="top-0 z-[20] bg-sqm-white lg:sticky">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-[120px] px-5 py-[12px]">
           <Link href="/">
             <img className="hidden w-[136px] md:block" src={data.largeLogo} />
